@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    font-family: "Comic Sans MS", sans-serif;
+  }
+  
+  body{
+      margin: 0;
+      padding: 0;
+  }
+  
+
+  h1 {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  
+  .container{
+    width: 100%;
+  }
+  
+  
+  .headers{
+    text-align: center;
+    border:1px solid black;
+    width: 30%;
+    height: 5%;
+    padding: 5px;
+    float: right;
+    margin-right: 35px;
+    margin-top: 0px;
+    font-weight: bold;
+    position: relative;
+  }
+  
+  .paratext{
+    border: 1px solid black;
+    width: 90%;
+    height: auto;
+    margin: 3%;
+    color: black;
+    padding: 2%;
+    padding-top: 55px;
+    background-color: #8E8E8F;
+  }
+  
+.p1{
+    background-color:#D59898;
+}
+.p2{
+    background-color:#B84240;
+    color: white;
+}
+.p3{
+    background-color:#E5D198;
+}
+  
+  
+  /********** Desktop Version **********/
+  @media (min-width: 992px) {
+    .large {
+        float: left;
+      width: 33.33%;
+    }
+  }
+  /********** Tablet Version **********/
+  @media (min-width: 768px) and (max-width: 991px) {
+    .medium-1,.medium-2 {
+      float: left;
+    }
+    .medium-1 {
+      width: 50%;
+    }
+    .medium-2 {
+      margin-left: -10px;
+      margin-right: 10px;
+      width: 100%;
+    }
+    .p3{
+      margin-right: 70px;
+      width: 100px;
+    }
+  }
+  
+  /********** Mobile Version **********/
+  @media (min-width: 0px) and (max-width: 767px) {
+    .small-1 {
+        float: left;
+      width: 100%;
+    }
+    .headers{
+      margin-right: 40px;
+    }
+  }
